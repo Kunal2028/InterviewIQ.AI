@@ -14,7 +14,7 @@ import InterviewReport from './pages/InterviewReport'
 import ResumeAnalyserPage from "./pages/ResumeAnalyserPage";
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-export const ServerUrl  = "http://localhost:8000"
+export const ServerUrl  = import.meta.env.VITE_API_URL;
 
 const HIDE_LAYOUT_PATHS = ['/interview', '/history']
 
